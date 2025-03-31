@@ -39,7 +39,7 @@
   set text(10pt)
   set par(justify: true)
 
-  if abstract.len() > 0 {
+  if abstract != none and abstract != [] {
     [
       #heading(outlined: false, bookmarked: false)[Abstract]
       #text(font: "TeX Gyre Pagella", abstract)
